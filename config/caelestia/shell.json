@@ -1,0 +1,102 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": false
+        },
+        "clock": {
+            "background": true,
+            "showDate": true,
+            "showIcon": false
+        },
+        "popouts": {
+            "tray": true
+        },
+        "statusIcons": [
+            {
+                "enabled": true,
+                "id": "lockStatus"
+            },
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": false,
+                "id": "microphone"
+            },
+            {
+                "enabled": false,
+                "id": "kbLayout"
+            },
+            {
+                "enabled": true,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "bluetooth"
+            },
+            {
+                "enabled": true,
+                "id": "battery"
+            }
+        ],
+        "tray": {
+            "background": true,
+            "compact": true,
+            "recolour": true
+        },
+        "workspaces": {
+            "activeTrail": true,
+            "occupiedBg": false
+        }
+    },
+    "launcher": {
+        "hiddenApps": [
+            "qvidcap",
+            "qv4l2",
+            "com.saivert.pwvucontrol",
+            "jconsole-java21-openjdk",
+            "jshell-java21-openjdk",
+            "micro",
+            "foot",
+            "footclient",
+            "foot-server",
+            "org.gnome.FileRoller",
+            "code-oss",
+            "bssh",
+            "bvnc",
+            "avahi-discover",
+            "xfce4-about",
+            "thunar-bulk-rename",
+            "thunar-volman-settings",
+            "btop"
+        ]
+    },
+    "notifs": {
+        "defaultExpireTimeout": 3000,
+        "expire": false,
+        "openExpanded": true
+    },
+    "services": {
+        "useFahrenheit": false
+    },
+    "utilities": {
+        "maxToasts": 5,
+        "toasts": {
+            "capsLockChanged": true,
+            "chargingChanged": true,
+            "fullscreen": "all",
+            "kbLayoutChanged": false,
+            "nowPlaying": false,
+            "numLockChanged": true,
+            "vpnChanged": false
+        }
+    }
+}
