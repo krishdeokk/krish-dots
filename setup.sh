@@ -60,6 +60,9 @@ sudo cp -a \
     "$DOTS_DIR/system/caelestia/etc/." \
     /etc/
 
+sudo systemctl daemon-reload
+sudo systemctl enable fprintd-restart.service
+
 echo ""
 echo "=========================================="
 echo " Setup complete!"

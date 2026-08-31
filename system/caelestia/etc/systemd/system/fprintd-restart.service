@@ -1,0 +1,14 @@
+[Unit]
+Description=Initialize and verify fingerprint service
+After=fprintd.service
+Before=greetd.service
+Wants=fprintd.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl restart fprintd.service
+ExecStart=/usr/bin/fprintd-list krishdeokk
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
